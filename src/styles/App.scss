@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'NEXT_ART'; 
+    src: url('./assets/fonts/NEXT\ ART_Regular.otf') format('opentype'); 
+    src: url('./assets/fonts/NEXT\ ART_Bold.otf') format('opentype'); 
+    src: url('./assets/fonts/NEXT\ ART_Heavy.otf') format('opentype'); 
+    src: url('./assets/fonts/NEXT\ ART_Light.otf') format('opentype'); 
+    src: url('./assets/fonts/NEXT\ ART_SemiBold.otf') format('opentype'); 
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+    color: #FDFDFD;
+
+    
+}
+
+li {
+    display: inline;
+}
+
+body{
+    overflow-x: hidden;
+    
+}
+
+button{
+    border: none;
+    background: none;
+}
+
+.body{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.hear_background_img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.main{
+    width: 80%;
+}
+
+.header{
+    margin: 1rem 0;
+}
